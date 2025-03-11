@@ -3,19 +3,19 @@ pipeline {
     node { label 'workstation'}
      }
     stages {
-        stage(built in ) {
+        stage('one') {
             steps {
                 echo 'Hello World'
             }
         }
     stages {
-        stage(unit test  ) {
+        stage('two') {
             steps {
                 echo 'Hello World'
             }
         }
     stages {
-        stage(release ) {
+        stage('three') {
             steps {
                 echo 'Hello World'
             }
